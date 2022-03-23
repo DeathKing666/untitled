@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+}
+
+.app .menu {
+  width: 120px;
+  flex-grow: 0;
+}
+
+
+
+.app .menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.app .menu ul h2 {
+  color: black;
+  font-size: 16px;
+}
+
+.app .menu ul li.active {
+  color: red;
+}
+
+.app .main {
+  flex: 1;
+}
